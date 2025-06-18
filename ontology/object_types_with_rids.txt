@@ -1,0 +1,3 @@
+Country - rid://foundry/ontology/object-type/abc123xyz
+LSCI_Record - rid://foundry/ontology/object-type/lsci456def
+Port - rid://foundry/ontology/object-type/port789ghi
