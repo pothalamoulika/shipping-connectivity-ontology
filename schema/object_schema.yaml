@@ -1,0 +1,31 @@
+Country:
+  description: "Represents an economy with shipping connectivity."
+  fields:
+    - name: name
+      type: string
+    - name: iso_code
+      type: string
+    - name: region
+      type: string
+
+LSCI_Record:
+  description: "Yearly Liner Shipping Connectivity Index data."
+  fields:
+    - name: year
+      type: integer
+    - name: lsci_value
+      type: float
+    - name: country_iso
+      type: string
+    - name: port_capacity
+      type: float
+
+Port:
+  description: "Represents a port within a country."
+  fields:
+    - name: port_name
+      type: string
+    - name: country_iso
+      type: string
+    - name: throughput
+      type: float
